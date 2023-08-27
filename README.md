@@ -1,47 +1,53 @@
-# ORM-Wren-Rice
-# 13 Object-Relational Mapping (ORM): E-Commerce Back End
+# E-Commerce Back End
 
-## My Task
+Welcome to the E-Commerce Back End project! In this project, we will build the back end for an e-commerce website using the latest technologies. This back end will serve as the foundation for a fully functioning e-commerce platform, allowing your company to compete with other e-commerce giants.
 
-Internet retail, also known as **e-commerce**, is the largest sector of the electronics industry, generating an estimated $29 trillion in 2019. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to their prevalence, understanding the fundamental architecture of these platforms will benefit you as a full-stack web developer.
+## Project Overview
 
-My task is to build the back end for an e-commerce site by modifying starter code. I’ll configure a working Express.js API to use Sequelize to interact with a MySQL database.
+Internet retail, also known as **e-commerce**, is a massive industry, generating trillions of dollars in revenue. E-commerce platforms like Shopify and WooCommerce provide essential services to businesses of all sizes. Understanding the fundamental architecture of these platforms is crucial for any full-stack web developer.
+
+Our task is to create the back end of an e-commerce site by modifying starter code. We will configure a functional Express.js API that uses Sequelize to interact with a MySQL database. This API will provide the necessary functionality for managing products, categories, and tags.
 
 ## User Story
 
-```md
-AS A manager at an internet retail company
-I WANT a back end for my e-commerce website that uses the latest technologies
-SO THAT my company can compete with other e-commerce companies
-```
+As a manager at an internet retail company, you want a robust back end for your e-commerce website that leverages the latest technologies. This back end will empower your company to compete effectively in the competitive e-commerce market.
 
 ## Acceptance Criteria
 
-```md
-GIVEN a functional Express.js API
-WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-THEN I am able to connect to a database using Sequelize
-WHEN I enter schema and seed commands
-THEN a development database is created and is seeded with test data
-WHEN I enter the command to invoke the application
-THEN my server is started and the Sequelize models are synced to the MySQL database
-WHEN I open API GET routes in Insomnia for categories, products, or tags
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia
-THEN I am able to successfully create, update, and delete data in my database
-```
+To ensure the success of this project, we have defined the following acceptance criteria:
+
+1. **Database Connection**: You should be able to connect to a database using Sequelize by providing the database name, MySQL username, and MySQL password via an environment variable file.
+
+2. **Database Initialization**: When you run schema and seed commands, a development database should be created and populated with test data. This ensures that your system is ready for testing and development.
+
+3. **Server Start**: When you invoke the application, your server should start, and Sequelize models should be synced to the MySQL database, ensuring that your API is ready to serve requests.
+
+4. **GET Routes**: When you use API GET routes in tools like Insomnia for categories, products, or tags, the data for each of these routes should be displayed in a well-formatted JSON format.
+
+5. **POST, PUT, and DELETE Routes**: When you test API POST, PUT, and DELETE routes in Insomnia, you should be able to successfully create, update, and delete data in your database. These routes should provide full CRUD (Create, Read, Update, Delete) functionality.
 
 ## Mock-Up
 
-The following animation shows the application's GET routes to return all categories, all products, and all tags being tested in Insomnia:
+Here are some mock-up animations that demonstrate the functionality of our application in action:
 
-![In Insomnia, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](./Assets/13-orm-homework-demo-01.gif)
+- **GET Routes**: In Insomnia, you can see how our application handles "GET" requests for categories, products, and tags. It returns well-structured JSON data.
 
-The following animation shows the application's GET routes to return a single category, a single product, and a single tag being tested in Insomnia:
+  ![GET Routes in Insomnia](./Assets/13-orm-homework-demo-01.gif)
 
-![In Insomnia, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./Assets/13-orm-homework-demo-02.gif)
+- **Single Item GET**: This animation demonstrates how to retrieve a single category, product, or tag by its ID using "GET" requests in Insomnia.
 
-The following animation shows the application's POST, PUT, and DELETE routes for categories being tested in Insomnia:
+  ![Single Item GET in Insomnia](./Assets/13-orm-homework-demo-02.gif)
 
-![In Insomnia, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./Assets/13-orm-homework-demo-03.gif)
-<br>This is my github link: https://github.com/nhunguyen-debug/ORM-Wren-Rice.git
+- **POST, PUT, DELETE Routes**: In this animation, we show the functionality of "POST," "PUT," and "DELETE" routes for categories. You can create, update, and delete categories seamlessly using Insomnia.
+
+  ![POST, PUT, DELETE Routes in Insomnia](./Assets/13-orm-homework-demo-03.gif)
+
+## Getting Started
+
+To get started with this project, please visit the GitHub repository: [E-Commerce Back End GitHub Repository](https://github.com/nhunguyen-debug/ORM-Wren-Rice)
+
+Clone the repository to your local machine and follow the installation and usage instructions provided in the repository's README.
+
+We hope this project helps you gain a deeper understanding of e-commerce back-end development and equips you with the skills necessary to compete in the ever-evolving e-commerce industry. Good luck with your project, and feel free to reach out if you have any questions or need assistance!
+
+Happy coding! 🚀
